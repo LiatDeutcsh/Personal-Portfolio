@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+.contact {
+    display: flex;
+    min-height: 70vh;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.contact .content {
+    display: flex;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-self: center;
+    justify-self: center;
+}
+
+.contact .left {
+    position: relative;
+    display: flex;
+    width: 335px;
+    height: 302px;
+    margin-left: 177px;
+    margin-top: 95px;
+}
+
+.contact .left img {
+    height: 100%;
+    width: 100%;
+}
+
+.contact .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bg {
+    position: absolute;
+    width: 90%;
+    height: 76%;
+    background: url("../../images/Avatar-portfolio.jpeg");
+    background-size: cover;
+    background-position: center;
+    margin: 70px 2px;
+}
+
+.paper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("../../images/white-ripped-paper.jpg");
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: lighten;
+    filter: brightness(1.26);
+}
+
+form {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+form input {
+    width: 300px;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+form textarea {
+    width: 300px;
+    min-height: 200px;
+    width: 300px;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+}
+
+form button {
+    width: 150px;
+    margin-bottom: 1rem;
+}
+
+form h3 {
+    margin-bottom: 10px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+@media screen and (max-width: 800px) {
+    .contact {
+        min-height: 55vh;
+    }
+    .contact .content {
+        flex-direction: column;
+    }
+    .contact .content {
+        margin-top: 0;
+    }
+    .contact .left {
+        display: none;
+    }
+}

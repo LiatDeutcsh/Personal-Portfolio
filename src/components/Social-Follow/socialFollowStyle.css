@@ -1,0 +1,40 @@
+.social-container {
+    padding: 25px 50px;
+}
+
+a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+a.social:hover {
+    transform: translateY(-2px);
+}
+
+.social-title {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+a.github {
+    color: #7c007c;
+}
+
+a.linkedin {
+    color: #0073af;
+}
+
+a.freecodecamp {
+    color: #000;
+}
+
+a.google {
+    color: #ed1515;
+}
+
+a.whatsapp {
+    color: #25ad00;
+}
