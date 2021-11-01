@@ -6,10 +6,9 @@ import { Link } from "react-scroll";
 import "./home.css";
 //Emoji
 // import Emoji from "../Emoji/emoji";
-import emoji from 'react-easy-emoji';
+import emoji from "react-easy-emoji";
 
 import Pdf from "../../assets/LiatDeutcsh--CV.pdf";
-
 
 const contentVariants = {
   initial: {
@@ -97,7 +96,7 @@ const Home = () => {
                 animate="animate"
                 initial="initial"
               >
-                 Junior Web Developer
+                Junior Web Developer
               </motion.h2>
             )}
           </AnimatePresence>
@@ -111,8 +110,7 @@ const Home = () => {
                 animate="animate"
                 initial="initial"
               >
-                <p>{ emoji(' 👋') }</p>
-
+                <p>{emoji(" 👋")}</p>
               </motion.h2>
             )}
           </AnimatePresence>
@@ -126,7 +124,7 @@ const Home = () => {
                 animate="animate"
                 initial="initial"
               >
-                  <p>{ emoji(' ✨') }</p>
+                <p>{emoji(" ✨")}</p>
               </motion.h2>
             )}
           </AnimatePresence>
@@ -145,18 +143,17 @@ const Home = () => {
           See My Work
         </Link>
 
-        <a 
-        className="button home-btn"
-        hashSpy={true}
-        spy={true}
-        smooth={true}
-        delay={100}
-        offset={-100}
-        duration={500}
-        href = {Pdf}
-        target="_blank"
-        rel="noopener noreferrer"
-        >Download Resume</a>
+        <a
+          className="button home-btn"
+          delay={100}
+          offset={-100}
+          duration={500}
+          href={Pdf}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Download Resume
+        </a>
       </motion.div>
 
       <motion.div
@@ -164,7 +161,6 @@ const Home = () => {
         animate={{ translateY: [-20, 0, -20, 0] }}
         transition={{ yoyo: Infinity, duration: 6 }}
       >
-      
         <img className="svg" src={man} alt="" />
       </motion.div>
     </section>
