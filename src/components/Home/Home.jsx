@@ -5,7 +5,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-scroll";
 import "./home.css";
 //Emoji
-// import Emoji from "../Emoji/emoji";
 import emoji from "react-easy-emoji";
 
 import Pdf from "../../assets/LiatDeutcsh--CV.pdf";
@@ -131,6 +130,7 @@ const Home = () => {
         </div>
         {/* // */}
         <Link
+          id="homeBtn1"
           className="button home-btn"
           to={"portfolio"}
           hashSpy={true}
@@ -139,11 +139,14 @@ const Home = () => {
           delay={100}
           offset={-100}
           duration={500}
-        >
-          See My Work
+        >    
+            <span>See My Work</span>
+            <div class="liquid"></div>
         </Link>
 
+
         <a
+          id="homeBtn1"
           className="button home-btn"
           delay={100}
           offset={-100}
@@ -152,7 +155,9 @@ const Home = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Download Resume
+          <span>Download Resume</span>
+            <div class="liquid"></div>
+          
         </a>
       </motion.div>
 

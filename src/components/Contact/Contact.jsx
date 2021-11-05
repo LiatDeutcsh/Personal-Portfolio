@@ -65,7 +65,7 @@ const Contact = () => {
       <Heading text="Contact" style={{ marginBottom: "3rem" }} />{" "}
       <div className="content">
         <div className="left">
-          <div className="bg"></div>
+        <div className="bg"></div>
           <div className="paper"></div>
           <img src={shakeImage} alt="shake hands" />
         </div>{" "}
