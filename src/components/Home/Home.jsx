@@ -156,7 +156,7 @@ const Home = () => {
           rel="noopener noreferrer"
         >
           <span>Download Resume</span>
-            <div class="liquid"></div>
+            <div className="liquid"></div>
           
         </a>
       </motion.div>

@@ -42,8 +42,8 @@ export const portfolioList = [{
         title: "Certifications",
     },
     {
-    id: "website",
-    title: "About Me",
+        id: "website",
+        title: "About Me",
     },
 ];
 
@@ -64,29 +64,26 @@ export const featuredPortfolio = [{
         tagline: "Forms",
     },
     {
-      id: 3,
-      title: "Personal Portfolio",
-      img: "https://image.freepik.com/free-photo/close-up-woman-holding-tablet_1098-3666.jpg",
-      repositoryUrl: "https://github.com/LiatDeutcsh/Portfolio-Project-Reactjs",
-      liveUrl: "https://github.com/LiatDeutcsh/Portfolio-Project-Reactjs",
-      tagline: "React / Nodejs",
-    }
-  
+        id: 3,
+        title: "Personal Portfolio",
+        img: "https://image.freepik.com/free-photo/close-up-woman-holding-tablet_1098-3666.jpg",
+        repositoryUrl: "https://github.com/LiatDeutcsh/Portfolio-Project-Reactjs",
+        liveUrl: "https://github.com/LiatDeutcsh/Portfolio-Project-Reactjs",
+        tagline: "React / Nodejs",
+    },
 ];
 
 export const webAppPortfolio = [{
-  id: 1,
-  title: "Certification",
-  img: "https://image.freepik.com/free-vector/multitasking-concept-illustration_52683-31718.jpg",
-  liveUrl: "https://www.linkpicture.com/view.php?img=LPic615f1fda9aa2e1220739240",
-  tagline: "BootCamp",
-}
-];
+    id: 1,
+    title: "Certification",
+    img: "https://image.freepik.com/free-vector/multitasking-concept-illustration_52683-31718.jpg",
+    liveUrl: "https://www.linkpicture.com/view.php?img=LPic615f1fda9aa2e1220739240",
+    tagline: "BootCamp",
+}, ];
 
 export const websitePortfolio = [{
-        id: 1,
-        title: "About Me",
-        img: "https://cdn.pixabay.com/photo/2016/07/08/15/44/banner-1504653_1280.png",
-        tagline: "I started my career switch with no related background study. I quit my job in HR to become a front-end developer and started learning in a bootCamp in june 2021. Highly motivated self starter. Quick learner, hard working & involved team player. Eager to develop new skills & meet challenges.",
-    }
-];
+    id: 1,
+    title: "About Me",
+    img: "https://cdn.pixabay.com/photo/2016/07/08/15/44/banner-1504653_1280.png",
+    tagline: "I started my career switch with no related background study. I'm a fresh bootCamp graduate, I'm 33 yo, Based in Tel-Aviv. ",
+}, ];
