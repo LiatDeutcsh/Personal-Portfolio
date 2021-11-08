@@ -52,7 +52,7 @@ export const featuredPortfolio = [{
         title: "To-Do List",
         img: "https://image.freepik.com/free-photo/programming-code-with-laptop-background_1134-61.jpg",
         repositoryUrl: "https://github.com/LiatDeutcsh/todo-app",
-        liveUrl: "https://diaries-manager.web.app/",
+        liveUrl: "https://github.com/LiatDeutcsh/todo-app",
         tagline: "Productivity / Management",
     },
     {
