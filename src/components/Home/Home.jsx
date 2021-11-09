@@ -139,11 +139,10 @@ const Home = () => {
           delay={100}
           offset={-100}
           duration={500}
-        >    
-            <span>See My Work</span>
-            <div class="liquid"></div>
+        >
+          <span>See My Work</span>
+          <div className="liquid"></div>
         </Link>
-
 
         <a
           id="homeBtn1"
@@ -156,8 +155,7 @@ const Home = () => {
           rel="noopener noreferrer"
         >
           <span>Download Resume</span>
-            <div className="liquid"></div>
-          
+          <div className="liquid"></div>
         </a>
       </motion.div>
 
