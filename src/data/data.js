@@ -85,5 +85,5 @@ export const websitePortfolio = [{
     id: 1,
     title: "About Me",
     img: "https://cdn.pixabay.com/photo/2016/07/08/15/44/banner-1504653_1280.png",
-    tagline: "I started my career switch with no related background study. I'm a fresh bootCamp graduate, I'm 33 yo, Based in Tel-Aviv. ",
+    tagline: "I started my career retraining from HR into web programming with no related background study. I'm writing single page applications using advanced web technologies, I'm 33 y.o, Based in Tel-Aviv. ",
 }, ];

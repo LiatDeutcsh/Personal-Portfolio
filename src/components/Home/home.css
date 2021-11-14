@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .home-container {
     display: flex;
     color: white;
@@ -32,12 +32,12 @@
 
 .main-heading {
     font-size: 2rem;
-    font-family: 'Ranchers', cursive;
+    font-family: 'Lobster', cursive;
     color: #fcfcfc;
     font-weight: 800;
     font-size: 3rem;
-    letter-spacing: 8px;
-    text-shadow: 0 0 0.1em hsl(228 8% 65% / 5), 0 0 0.125em currentColor;
+    letter-spacing: 3px;
+    text-shadow: 0 0 0.1em hsl(228 8% 40% / 5), 0 0 0.125em currentColor;
 }
 
 .skill-content {
