@@ -1,7 +1,15 @@
 export const services = [{
         title: "Front End:",
         iconSrc: "https://cdn2.iconfinder.com/data/icons/whcompare-isometric-web-hosting-servers/50/connected-globe-1024.png",
-        tags: ["HTML", "CSS", "JavaScript", "React js", "Bootstrap", "jQuery"],
+        tags: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React js",
+            "Angular",
+            "Bootstrap",
+            "jQuery",
+        ],
     },
     {
         title: "Back End",
