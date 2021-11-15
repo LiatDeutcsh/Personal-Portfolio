@@ -24,12 +24,6 @@
     min-height: 90vh;
 }
 
-.welcome-content {
-    color: gray;
-    font-size: 0.65rem;
-    font-family: 'Mochiy Pop One', sans-serif;
-}
-
 .main-heading {
     font-size: 2rem;
     font-family: 'Catamaran', sans-serif;
