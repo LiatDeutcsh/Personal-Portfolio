@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import man from "../../images/dev.png";
 import { motion, AnimatePresence } from "framer-motion";
 // Router
 import { Link } from "react-scroll";
@@ -97,7 +96,7 @@ const Home = () => {
                 animate="animate"
                 initial="initial"
               >
-                Junior Web Developer
+                Junior Fullstack Developer
               </motion.h2>
             )}
           </AnimatePresence>
@@ -162,12 +161,24 @@ const Home = () => {
       </motion.div>
 
       <motion.div
-        className="svg-container"
-        animate={{ translateY: [-20, 0, -20, 0] }}
-        transition={{ yoyo: Infinity, duration: 6 }}
+        className="container"
       >
-        <img className="svg" src={man} alt="" />
+        <div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
       </motion.div>
+     
     </section>
   );
 };

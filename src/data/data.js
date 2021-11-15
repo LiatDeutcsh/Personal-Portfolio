@@ -61,7 +61,7 @@ export const featuredPortfolio = [{
         img: "https://image.freepik.com/free-photo/programming-code-with-laptop-background_1134-61.jpg",
         repositoryUrl: "https://github.com/LiatDeutcsh/todo-app",
         liveUrl: "https://github.com/LiatDeutcsh/todo-app",
-        tagline: "Productivity / Management",
+        tagline: "React",
     },
     {
         id: 2,
@@ -69,7 +69,7 @@ export const featuredPortfolio = [{
         img: "https://image.freepik.com/free-vector/futuristic-binary-code-numbers-digital-data-background_1017-25334.jpg",
         repositoryUrl: "https://codepen.io/liatdeutcsh-the-styleful/pen/VwWoaxL?editors=1000",
         liveUrl: "https://codepen.io/liatdeutcsh-the-styleful/pen/VwWoaxL?editors=1000",
-        tagline: "Forms",
+        tagline: "HTML / CSS",
     },
     {
         id: 3,
@@ -79,6 +79,22 @@ export const featuredPortfolio = [{
         liveUrl: "https://github.com/LiatDeutcsh/Portfolio-Project-Reactjs",
         tagline: "React / Nodejs",
     },
+    {
+        id: 4,
+        title: "Dice Game",
+        img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-of-dices-on-blue-background-royalty-free-image-1581594915.jpg?resize=980:*",
+        repositoryUrl: "https://github.com/LiatDeutcsh/Dice-Game",
+        liveUrl: "https://github.com/LiatDeutcsh/Dice-Game",
+        tagline: "Javascript / HTML / CSS",
+    },
+    {
+        id: 5,
+        title: "Simon Game",
+        img: "https://cdn.dribbble.com/users/204955/screenshots/3168377/media/9233a1181e93e3f87110090057ee68d8.png",
+        repositoryUrl: "https://github.com/LiatDeutcsh/Simon-Game",
+        liveUrl: "https://liatdeutcsh.github.io/Simon-Game",
+        tagline: "Javascript / HTML / CSS",
+    },
 ];
 
 export const webAppPortfolio = [{
@@ -86,7 +102,7 @@ export const webAppPortfolio = [{
     title: "Certification",
     img: "https://image.freepik.com/free-vector/multitasking-concept-illustration_52683-31718.jpg",
     liveUrl: "https://www.linkpicture.com/view.php?img=LPic615f1fda9aa2e1220739240",
-    tagline: "BootCamp",
+    tagline: "AppleCeed Academy - Bootcamp",
 }, ];
 
 export const websitePortfolio = [{
