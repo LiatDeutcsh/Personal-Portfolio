@@ -95,6 +95,14 @@ export const featuredPortfolio = [{
         liveUrl: "https://liatdeutcsh.github.io/Simon-Game",
         tagline: "Javascript / HTML / CSS",
     },
+    {
+        id: 6,
+        title: "Weather App",
+        img: "https://cdn.pixabay.com/photo/2012/04/18/13/21/clouds-37009_1280.png",
+        repositoryUrl: "https://github.com/LiatDeutcsh/Weather--App",
+        liveUrl: "https://weather-app-per-ld.herokuapp.com",
+        tagline: "Express / Handlebars / Javascript / HTML / CSS",
+    },
 ];
 
 export const webAppPortfolio = [{
