@@ -96,7 +96,7 @@ const Home = () => {
                 animate="animate"
                 initial="initial"
               >
-                Junior Fullstack Developer
+                Nice To Meet !
               </motion.h2>
             )}
           </AnimatePresence>
